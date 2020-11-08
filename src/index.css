@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Nunito+Sans:ital@1&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body {
+  margin: 0;
+  
+  background: cornflowerblue;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.main_div{
+  display: flex;
+  width: 25%;
+  height: 85vh;
+  justify-content: center;
+  /* align-items: center; */
+  margin: auto;
+  margin-top: 3%;
+  background: linear-gradient(130deg, #fff , #000 );
+  border: 1px solid black;
+  box-shadow: 
+              0 0 3rem black;
+  border-radius: 1rem;
+  overflow: hidden;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+  scrollbar-color: transparent;
+
+}
+h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 5px ;
+  /* border-radius: 10px; */
+  width: 25vw;
+  color: white;
+  background: rgb(104, 5, 104);
+}
+input{
+  display: flex;
+  width: 60%;
+  height: 7%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  position: relative;
+  left: -30px;
+  outline: none;
+  cursor: pointer;
+  text-decoration: none;
+  background: transparent;
+  outline-style: none;
+  border: none;
+  border-bottom: 3px solid rgb(104, 5, 104);
+  font-size: larger;
+  color: rgb(104, 5, 104);
+  
+  
+  
+}
+input::placeholder{
+  font-size: 1.2rem;
+  color:  rgba(58, 1, 58,0.5);
+  font-weight: bolder;
+  font-family: 'Nunito Sans', sans-serif;
+}
+.add{
+  position: absolute;
+  top: 19%;
+  left: 57%;
+  /* height: 3em;*/
+  width: 1.4em; 
+  font-size: 2rem;
+  font-weight: bolder;
+  border-radius: 50%;
+  color: cyan;
+  background: rgb(104, 5, 104) ;
+  border: 2px solid cyan;
+  outline: none;
+  /* box-shadow: 0 0 2rem cyan; */
+  cursor: pointer;
+}
+.add:hover{
+  background: greenyellow;
+  color: green;
+  border: 2px solid greenyellow;
+  outline: none;
+  box-shadow: 0 0 2rem greenyellow;
+}
+
+li{
+  display: flex;
+  position: relative;
+  font-size: 1.4rem;
+  font-weight: bolder;
+  font-family: 'Nunito Sans', sans-serif;
+  text-decoration: none;
+  left: 25%;
+  margin-top: 3%;
+  text-transform: capitalize;
+  color:  rgb(104, 5, 104);
+}
+.cross{
+  position: absolute;
+  top: 5%;
+  left: -15%;
+  /* height: 3em;*/
+  width: 1.4em; 
+  font-size: 1.25rem;
+  font-weight: bold;
+  border-radius: 50%;
+  color: green;
+  background: rgb(255, 255, 255) ;
+  border: 2px solid green;
+  outline: none;
+  /* box-shadow: 0 0 2rem cyan; */
+  cursor: pointer;
+}
+.cross:hover {
+  background: red;
+  color: #000;
+  border: 2px solid #000;
+}
